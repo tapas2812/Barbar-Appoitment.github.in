@@ -121,7 +121,7 @@
 }
 
 /*************************************Mobile View**********************************************/
-@media screen and (max-width: 770px){
+@media screen and (max-width: 360px){
     #banner #text h1{
         font-size: 60px;
     }
