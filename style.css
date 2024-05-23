@@ -121,13 +121,13 @@
 }
 
 /*************************************Mobile View**********************************************/
-@media screen and (max-width = 770px){
+@media screen and (max-width = 360px){
     #banner #text h1{
-        font-size: 44px;
+        font-size: 40px;
     }
     #bannerbtn{
        display: block;
-       margin: 20px auto;
+       margin-bottom: 10px;
     } 
 }
 
@@ -224,7 +224,7 @@
     text-align: initial;
 }
 /**************************************MobileView********************************************/
-@media screen and (max-width = 770px){
+@media screen and (max-width = 360px){
     .text{
         text-align: center;
         padding-bottom: 35px;
