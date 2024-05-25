@@ -339,10 +339,53 @@ hr{
     .first-service:hover .service-desc{
         bottom: 25% !important;
     }
-        
-        
-        
+}
+/************************************Our Services end*********************************************/
+
+
+/************************************Feedback Start*********************************************/
+#feedback{
+    width: 100%;
+    padding: 70px 0;
 }
 
-/************************************Our Services end*********************************************/
+.feedback-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.feedback-col{
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #00968814;
+}
+
+.feedback-col p{
+    font-weight: 600;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.user img{
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+/************************************Feedback end*********************************************/
+        
+        
+        
+
         
