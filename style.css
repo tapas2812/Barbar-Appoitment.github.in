@@ -8,6 +8,12 @@
     scroll-behavior: smooth;   
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
+
 /*****************************************Home Page***************************************/
 #banner{
     background-image: linear-gradient(rgba(0,0,0,0.7), rgb(0, 150, 136, 0.7))
@@ -363,7 +369,8 @@ hr{
     padding: 10px;
     margin-bottom: 30px;
     border-radius: 5px;
-    box-shadow: 0 10px 20px 3px #00968814;
+    box-shadow: 0 10px 20px 3px #000;
+    transition: transform 0.5s;
 }
 
 .feedback-col p{
@@ -383,7 +390,114 @@ hr{
     margin-right: 20px;
     border-radius: 4px;
 }
+
+.user-info .fa-brands{
+    margin-left: 12px;
+    color: #27c0ff;
+    font-size: 20px;
+}
+
+.user-info small{
+    color: #009688;
+    font-weight: bold;
+}
+
+.feedback-col:hover{
+    transform: translateY(-10px);
+}
+/************************************Mobile View*********************************************/
+@media screen and (max-width: 360px){
+    .feedback-col{
+        flex-basis: 100%;
+    }
+}
 /************************************Feedback end*********************************************/
+
+
+/************************************Footer Start*********************************************/
+#footer{
+    padding: 100px 0 20px;
+    background: #efefef;
+    position: relative;
+}
+
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left, .footer-right{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-right{
+    text-align: right;
+}
+
+.footer-row h1{
+    margin: 10px 0;
+}
+
+.footer-row p{
+    line-height: 35px;
+}
+
+.footer-left .fa-regular, .footer-right .fa-solid{
+    font-size: 20px;
+    color: #009688;
+    margin: 10px;
+}
+
+.footer-img{
+    max-width: 370px;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.social-media{
+    text-align: center;
+}
+    
+.social-media .fa-brands{
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    border: 1px solid #009688;
+    color: #009688;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.social-media .fa-brands:hover{
+    background-color: #009688;
+    color: #fff;
+    transform: translateY(-10px);
+}
+
+.social-media p{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/************************************Mobile View*********************************************/
+@media screen and (max-width:360px){
+    .footer-left, .footer-right{
+        flex-basis: 100%;
+        font-size: 13px;
+    }
+}
+/************************************Footer end*********************************************/
         
         
         
