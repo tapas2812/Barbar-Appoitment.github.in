@@ -33,27 +33,18 @@
           
           <div class="email-form">
             <h3>Contact on Email</h3>
-            <form action="https://api.web3forms.com/submit" method="POST">
+            <form action="https://api.web3forms.com/submit" method="POST" class="validation">
               <input type="hidden" name="access_key" value="85a832cb-f9e3-4fe7-afdb-4d983cfbc737">
               <div class="tbox">
-                <i class="fa-solid fa-user"></i><input
-                  type="text"
-                  name=""
-                  placeholder="Enter Your Name"
-                  required
-                />
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="name" placeholder="Enter Your Name" required/>
               </div>
               <div class="tbox">
-                <i class="fa fa-phone"></i
-                ><input
-                  type="text"
-                  name=""
-                  placeholder="Enter Phone Number"
-                  required
-                />
+                <i class="fa fa-phone"></i>
+                <input type="text" name="number" placeholder="Enter Phone Number" required/>
               </div>
               <div class="tbox">
-                <textarea name="" rows="3" placeholder="Enter Your Message"></textarea>
+                <textarea name="msg" rows="3" placeholder="Enter Your Message"></textarea>
               </div>
               <button class="btn">Send</button>
             </form>
