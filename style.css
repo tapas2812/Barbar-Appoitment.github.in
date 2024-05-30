@@ -362,6 +362,7 @@ hr{
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+   
 }
 
 .feedback-col{
@@ -372,6 +373,7 @@ hr{
     box-shadow: 0 10px 20px 3px #000;
     transition: transform 0.5s;
 }
+    
 
 .feedback-col p{
     font-weight: 600;
@@ -403,8 +405,10 @@ hr{
 }
 
 .feedback-col:hover{
-    transform: translateY(-10px);
+    transform: translateY(-10px) scale(1.11);
+    box-shadow: 0 5px 10px 2px #000;
 }
+    
 /************************************Mobile View*********************************************/
 @media screen and (max-width: 360px){
     .feedback-col{
